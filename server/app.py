@@ -33,7 +33,7 @@ try:
 except Exception as e:
     print(f"Error starting camera: {e}")
     exit(1)
-
+#dfd
 # 리소스 모니터링 함수
 def monitor_resources():
     cpu_usage = psutil.cpu_percent(interval=0)
